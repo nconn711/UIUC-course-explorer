@@ -11,6 +11,17 @@
 		7E8E675625450668005DB19E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E675525450668005DB19E /* ContentView.swift */; };
 		7E8E675825450669005DB19E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E8E675725450669005DB19E /* Assets.xcassets */; };
 		7E8E675B25450669005DB19E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E8E675A25450669005DB19E /* Preview Assets.xcassets */; };
+		7E8F89F42545705000A04763 /* courseData01.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E8F89F02545705000A04763 /* courseData01.json */; };
+		7E8F89F52545705000A04763 /* courseData03.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E8F89F12545705000A04763 /* courseData03.json */; };
+		7E8F89F62545705000A04763 /* courseData02.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E8F89F22545705000A04763 /* courseData02.json */; };
+		7E8F89F72545705000A04763 /* courseData00.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E8F89F32545705000A04763 /* courseData00.json */; };
+		7E8F8A03254574A200A04763 /* courseData.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E8F8A02254574A200A04763 /* courseData.json */; };
+		7E8F8A0A25457B3700A04763 /* courseData.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E8F8A0925457B3700A04763 /* courseData.json */; };
+		7ED1696125457C960071D0F8 /* courseData.json in Resources */ = {isa = PBXBuildFile; fileRef = 7ED1696025457C960071D0F8 /* courseData.json */; };
+		7ED68F952545598900045CDA /* DataJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED68F942545598900045CDA /* DataJSON.swift */; };
+		7ED68F9D25455A0B00045CDA /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED68F9C25455A0B00045CDA /* Course.swift */; };
+		7ED68FA025455A1E00045CDA /* CourseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED68F9F25455A1E00045CDA /* CourseItem.swift */; };
+		7ED68FA325455A2F00045CDA /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED68FA225455A2F00045CDA /* CourseList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +31,17 @@
 		7E8E675725450669005DB19E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E8E675A25450669005DB19E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7E8E675C25450669005DB19E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E8F89F02545705000A04763 /* courseData01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = courseData01.json; path = "UIUC-course-explorer/Courses/courseData01.json"; sourceTree = SOURCE_ROOT; };
+		7E8F89F12545705000A04763 /* courseData03.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = courseData03.json; path = "UIUC-course-explorer/Courses/courseData03.json"; sourceTree = SOURCE_ROOT; };
+		7E8F89F22545705000A04763 /* courseData02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = courseData02.json; path = "UIUC-course-explorer/Courses/courseData02.json"; sourceTree = SOURCE_ROOT; };
+		7E8F89F32545705000A04763 /* courseData00.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = courseData00.json; path = "UIUC-course-explorer/Courses/courseData00.json"; sourceTree = SOURCE_ROOT; };
+		7E8F8A02254574A200A04763 /* courseData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = courseData.json; sourceTree = "<group>"; };
+		7E8F8A0925457B3700A04763 /* courseData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = courseData.json; path = ../../../../Coding/courseData.json; sourceTree = "<group>"; };
+		7ED1696025457C960071D0F8 /* courseData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = courseData.json; sourceTree = "<group>"; };
+		7ED68F942545598900045CDA /* DataJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataJSON.swift; sourceTree = "<group>"; };
+		7ED68F9C25455A0B00045CDA /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		7ED68F9F25455A1E00045CDA /* CourseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseItem.swift; sourceTree = "<group>"; };
+		7ED68FA225455A2F00045CDA /* CourseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +79,7 @@
 				7E8E675725450669005DB19E /* Assets.xcassets */,
 				7E8E675C25450669005DB19E /* Info.plist */,
 				7E8E675925450669005DB19E /* Preview Content */,
+				7ED68FA525455A3B00045CDA /* Courses */,
 			);
 			path = "UIUC-course-explorer";
 			sourceTree = "<group>";
@@ -64,9 +87,27 @@
 		7E8E675925450669005DB19E /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				7E8F8A02254574A200A04763 /* courseData.json */,
+				7E8F8A0925457B3700A04763 /* courseData.json */,
+				7E8F89F32545705000A04763 /* courseData00.json */,
+				7E8F89F02545705000A04763 /* courseData01.json */,
+				7E8F89F22545705000A04763 /* courseData02.json */,
+				7E8F89F12545705000A04763 /* courseData03.json */,
 				7E8E675A25450669005DB19E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7ED68FA525455A3B00045CDA /* Courses */ = {
+			isa = PBXGroup;
+			children = (
+				7ED1696025457C960071D0F8 /* courseData.json */,
+				7ED68F942545598900045CDA /* DataJSON.swift */,
+				7ED68F9C25455A0B00045CDA /* Course.swift */,
+				7ED68F9F25455A1E00045CDA /* CourseItem.swift */,
+				7ED68FA225455A2F00045CDA /* CourseList.swift */,
+			);
+			path = Courses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +167,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E8F89F72545705000A04763 /* courseData00.json in Resources */,
+				7E8F89F42545705000A04763 /* courseData01.json in Resources */,
+				7E8F8A0A25457B3700A04763 /* courseData.json in Resources */,
 				7E8E675B25450669005DB19E /* Preview Assets.xcassets in Resources */,
 				7E8E675825450669005DB19E /* Assets.xcassets in Resources */,
+				7E8F8A03254574A200A04763 /* courseData.json in Resources */,
+				7E8F89F52545705000A04763 /* courseData03.json in Resources */,
+				7E8F89F62545705000A04763 /* courseData02.json in Resources */,
+				7ED1696125457C960071D0F8 /* courseData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +186,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ED68F9D25455A0B00045CDA /* Course.swift in Sources */,
+				7ED68FA025455A1E00045CDA /* CourseItem.swift in Sources */,
 				7E8E675625450668005DB19E /* ContentView.swift in Sources */,
 				7E8E675425450668005DB19E /* UIUC_course_explorerApp.swift in Sources */,
+				7ED68FA325455A2F00045CDA /* CourseList.swift in Sources */,
+				7ED68F952545598900045CDA /* DataJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
