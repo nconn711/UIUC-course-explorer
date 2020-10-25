@@ -10,11 +10,14 @@ import SwiftUI
 struct CourseList: View {
 	
 	var courses:[Course]
+	var program:Program
 	
     var body: some View {
 		List {
 			ForEach (self.courses, id: \.id) { course in
-				CourseItem(course: course)
+				if course.program == program {
+					CourseItem(course: course)
+				}
 			}
 		}
     }
@@ -22,6 +25,6 @@ struct CourseList: View {
 
 struct CourseList_Previews: PreviewProvider {
     static var previews: some View {
-		CourseList(courses: courseData)
+		CourseList(courses: courseData, program: Program.CS)
     }
 }

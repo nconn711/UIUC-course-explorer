@@ -15,7 +15,7 @@ struct CourseItem: View {
 		
 		VStack(alignment: .leading, spacing: 5) {
 			HStack {
-				Text(course.program)
+				Text(course.program.rawValue)
 				Text(course.number)
 			}
 			.font(.headline)
@@ -31,6 +31,6 @@ struct CourseItem: View {
 
 struct CourseItem_Previews: PreviewProvider {
 	static var previews: some View {
-		CourseItem(course: courseData[1])
+		CourseItem(course: courseData[30])
 	}
 }

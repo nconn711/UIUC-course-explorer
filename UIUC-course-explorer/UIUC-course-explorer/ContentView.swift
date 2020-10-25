@@ -10,7 +10,15 @@ import SwiftUI
 struct ContentView: View {
 	
     var body: some View {
-        CourseList(courses: courseData)
+		VStack {
+			Image("UIUC_front_image")
+				.resizable()
+				.aspectRatio(contentMode: .fill)
+				.frame(width: 400, height: 200)
+				.edgesIgnoringSafeArea(.all)
+				.padding(.bottom, -40)
+			CourseList(courses: courseData, program: Program.ECE)
+		}
     }
 }
 
